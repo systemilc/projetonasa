@@ -62,9 +62,14 @@ main{
     
 }
 
+label{
+    margin-right: 5px;
+}
+
 .input_botao{
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 2px;
 }
 .input_botao button{
