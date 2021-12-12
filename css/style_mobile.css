@@ -16,14 +16,14 @@
     
     #cabecalho{
         font-size: 20px;
-    
-    }
-
-    #cabecalho{
-        margin-left: 5%;
+        margin-left: 2%;
         width: 50%;
         text-align: center;
     
+    }
+    nav{
+        margin-right: 2%;
+        width: 100%;
     }
 
     .input_botao{
