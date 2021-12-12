@@ -1,0 +1,47 @@
+header{
+    width: auto;
+    height: 60px;
+    color: cornsilk;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0f0f0f;
+    padding: 1%;
+
+}
+
+#cabecalho{
+    margin-left: 5%;
+    width: 80%;
+    text-align: center;
+
+}
+
+.icones{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    margin-right: 5%;
+    width: 100%;
+}
+
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.icones nav ul li a{
+    color: cornsilk;
+    transition: all 0.5s;
+}
+.icones nav ul li a:hover{
+    color: #FDCD00;
+    
+}
