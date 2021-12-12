@@ -5,7 +5,7 @@ let ano = hoje.getFullYear();
 dataAtual = dia + '/' + mes + '/' + ano;
 console.log(dataAtual);
 
-$('#textoInicial').text(`Para começar, escolha uma dia entre 20/06/2021 e ${dataAtual}`);
+$('#textoInicial').text(`Para começar, escolha uma dia entre 20/06/2020 e ${dataAtual}`);
 $('#foto').attr('src', './img/inicio.png');
 
 $('#buscar').click(
@@ -32,7 +32,7 @@ $('#buscar').click(
             $('#textoInicial').text(``);
             $('#titulo').text('A primeira foto adicionada ao Apod foi dia 20/06/2020');
             $('#texto').text(`Sei que você está curioso para ver mais fotos. Mas infelizmente só podemos exibir fotos entre os dias 20/06/2020 e ${dataAtual}`);
-            $('#foto').attr('src', '../img/erro.png');
+            $('#foto').attr('src', './img/erro.png');
             $('#foto').attr('');
             $('#autor').text('')
 }
