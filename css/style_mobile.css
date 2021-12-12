@@ -1,6 +1,14 @@
 @media (max-width: 600px)
 {
 
+    main{
+        margin: 25px;
+        height: auto;
+        
+        
+    }
+
+    
     #cabecalho{
         font-size: 25px;
     
@@ -20,6 +28,7 @@
     }
 
     #textoInicial{
+        color: darkred;
         font-size: 20px;
         text-align: center;
     }
