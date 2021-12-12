@@ -1,4 +1,14 @@
 
+
+let hoje = new Date();
+let dia = String(hoje.getDate()).padStart(2, '0');
+let mes = String(hoje.getMonth() + 1).padStart(2, '0');
+let ano = hoje.getFullYear();
+dataAtual = dia + '/' + mes + '/' + ano;
+console.log(dataAtual);
+
+
+
 $('#buscar').click(
     function () {
         let data = $('#buscaData').val();
@@ -16,9 +26,13 @@ $('#buscar').click(
             $('#autor').text(`Autor: ${resultado.copyright}`)
         },
     })
-}else{7
-    $('#titulo').text('Erro: A primeira foto postada no APOD foi dia 20/06/2020');
-    
+}else{
+    $('#dataFoto').text('');
+            $('#titulo').text('A primeira foto adicionada ao Apod foi dia 20/06/2020');
+            $('#texto').text(`Sei que você está curioso para ver mais fotos. Mas infelizmente só podemos exibir fotos entre os dias 20/06/2020 e ${dataAtual}`);
+            $('#foto').attr('src', '../img/erro.png');
+            $('#foto').attr('');
+            $('#autor').text('')
 }
 })
 
