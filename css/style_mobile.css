@@ -1,0 +1,32 @@
+@media (max-width: 600px)
+{
+
+    #cabecalho{
+        font-size: 25px;
+    
+    }
+
+    #cabecalho{
+        margin-left: 5%;
+        width: 50%;
+        text-align: center;
+    
+    }
+    
+    .icones{
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #textoInicial{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #tradutor{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+}

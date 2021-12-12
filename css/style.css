@@ -58,6 +58,8 @@ ul{
 main{
     margin: 25px;
     
+    
+    
 }
 
 .input_botao{
@@ -81,6 +83,11 @@ main{
     align-items: center;
     margin-top: 5px;
     
+}
+
+#textoInicial{
+    margin-top: 10px;
+    font-size: 30px;
 }
 
 #titulo{
@@ -121,3 +128,4 @@ footer{
     padding: 1%;
 
 }
+
