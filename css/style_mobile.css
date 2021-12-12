@@ -36,7 +36,6 @@
     }
 
     #textoInicial{
-        color: darkred;
         font-size: 20px;
         text-align: center;
     }
@@ -48,7 +47,7 @@
     }
 
     #foto{
-        width: 300px;
+        width: 400px;
         height: auto;
     }
 }
