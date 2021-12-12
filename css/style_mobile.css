@@ -55,4 +55,17 @@
         width: 300px;
         height: auto;
     }
+
+    footer{
+        width: auto;
+        height: 60px;
+        color: cornsilk;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #0f0f0f;
+        padding: 1%;
+    
+    }
 }
