@@ -1,3 +1,8 @@
+*{
+    font-family: 'Archivo', sans-serif;
+    font-style: normal;
+}
+
 header{
     width: auto;
     height: 60px;
@@ -44,4 +49,58 @@ ul{
 .icones nav ul li a:hover{
     color: #FDCD00;
     
+}
+
+main{
+    margin: 25px;
+
+}
+
+.input_botao{
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+}
+.input_botao button{
+    border-radius: 5px;
+    margin-left: 5px;
+   transition-duration: 1s;
+}
+.input_botao button:hover{
+    background: #FDCD00;
+   
+}
+
+.informacoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+    
+}
+
+#titulo{
+    text-align: center;
+    font-size: 30px;
+}
+
+#texto{
+    margin-top: 15px;
+    text-align: justify;
+}
+
+.infoFoto{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#autor{
+    margin-top: 10px;
+}
+
+#foto{
+    margin-top: 10px;
+    width: auto;
+    height: 400px;
 }
