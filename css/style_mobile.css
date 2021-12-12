@@ -1,6 +1,11 @@
 @media (max-width: 600px)
 {
 
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
     main{
         margin: 25px;
         height: 100%;
