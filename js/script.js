@@ -6,7 +6,7 @@ dataAtual = dia + '/' + mes + '/' + ano;
 console.log(dataAtual);
 
 $('#textoInicial').text(`Para começar, escolha uma dia entre 20/06/2021 e ${dataAtual}`);
-$('#foto').attr('src', '../img/inicio.png');
+$('#foto').attr('src', './img/inicio.png');
 
 $('#buscar').click(
     function () {
