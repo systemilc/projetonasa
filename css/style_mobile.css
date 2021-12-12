@@ -20,6 +20,14 @@
         text-align: center;
     
     }
+
+    .input_botao{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2px;
+    }
     
     .icones{
         width: 50%;
